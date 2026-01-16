@@ -27,23 +27,23 @@ public class UserServiceApplication {
         return args -> {
 
             User u1= User.builder()
-                    .lastName("hadoumi")
-                    .firstName("mostafa")
-                    .email("hadoumi@gmail.com")
+                    .lastName("assoulaimani")
+                    .firstName("asma")
+                    .email("assoulaimani@gmail.com")
                     .build();
             userRepository.save(u1);
 
             User u2 = User.builder()
-                    .lastName("ouahidi")
-                    .firstName("bouabid")
-                    .email("bouabid@gmail.com")
+                    .lastName("elamari")
+                    .firstName("latifa")
+                    .email("elamari@gmail.com")
                     .build();
             userRepository.save(u2);
 
             User u3 = User.builder()
-                    .lastName("bachiir")
-                    .firstName("faima")
-                    .email("bachiri@gmail.com")
+                    .lastName("majdoule")
+                    .firstName("manal")
+                    .email("manal@gmail.com")
                     .build();
             userRepository.save(u3);
 
